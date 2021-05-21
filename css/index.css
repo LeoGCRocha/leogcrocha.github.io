@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 body{
     overflow-x: hidden;
+    background-color: aliceblue;
 }
 .home-nav{
     height: 80px;
@@ -34,4 +36,80 @@ body{
     height: 100%;
     background-color: steelblue;
     opacity: .8;
+}
+.container-profile { 
+    position: absolute;
+    margin-top: -260px;
+}
+.container-profile img {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 15px solid aliceblue;
+    position: relative;
+}
+.container-profile img:hover{
+    filter: grayscale(100%);
+}
+.container-text-box {
+    padding: 160px 10px 10px 10px;
+    background-color: steelblue;
+    color: white;
+    font-family: 'Roboto',sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: -150px;
+}
+.container-text-box h1{
+    font-family: 'Dancing Script', sans-serif;
+    margin-bottom: 0px;
+}
+.container-info-box {
+    border: 5px dotted white;
+    text-align: justify;
+}
+.has-dropcap:first-letter {
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+    float: left;
+    font-size: 6rem;
+    line-height: 0.65;
+    margin: 0.1em 0.1em 0.2em 0;
+  }
+.dropcap {
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+    background: #303030;
+    color: #FDF9F2;
+    float: left;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0.1em 0.1em 0.2em 0;
+    padding: 0.1em;
+}
+.dropcap:before,
+.dropcap:after {
+    content: "";
+    display: block;
+}
+.dropcap:before {
+    margin-top: -0.2em;
+}
+.dropcap:after {
+    margin-bottom: -0.15em;
+}
+.sr-only:not(:focus):not(:active) {
+    clip: rect(0 0 0 0); 
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap; 
+    width: 1px;
+}
+.social-media {
+    margin: -10px auto 20px auto;
+    background-color: royalblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
