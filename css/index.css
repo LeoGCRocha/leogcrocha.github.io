@@ -28,7 +28,7 @@ body{
     background-image: url("../res/backgrounds/responsive.jpg");
     background-size: cover;
     background-position: center;
-    height: 600px;
+    height: 400px;
 }
 .overlay{
     width: 120%;
@@ -113,3 +113,4 @@ body{
     text-align: center;
     padding: 10px;
 }
+
